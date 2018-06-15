@@ -37,7 +37,7 @@ def call(int weight, String appName, String namespace) {
         ]
     ]
 
-    def patchJson = groovy.json.JsonOutput.JsonOutput.toJson(patch)
+    def patchJson = groovy.json.JsonOutput.toJson(patch)
     sh "oc patch route ${appName} -p '${patchJson}'  -n ${namespace}"
 
 }
