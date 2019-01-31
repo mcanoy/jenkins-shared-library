@@ -4,7 +4,7 @@ This library provides a few common methods used during Jenkins pipelines.
 
 ## Usage
 
-This project can be imported into a Jenkins pipeline with a Jenkinsfile. Here is a sample pipeline that uses a method in this repo or can be made available by configuring a global shared library in jenkins. See (here|https://github.com/mcanoy/labs-ci-cd/tree/config-jenkins/s2i-config/jenkins-master) for an example of automating the global shared library.
+This project can be imported into a Jenkins pipeline with a Jenkinsfile. Here is a sample pipeline that uses a method in this repo or can be made available by configuring a global shared library in jenkins. See [here](https://github.com/mcanoy/labs-ci-cd/tree/config-jenkins/s2i-config/jenkins-master) for an example of automating the global shared library.
 
 ```
 pipeline {
